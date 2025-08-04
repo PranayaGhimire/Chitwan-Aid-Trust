@@ -5,9 +5,9 @@ import HeroSection from '@/components/Home/HeroSection.vue';
 import ImpactStatistics from '@/components/Home/ImpactStatistics.vue';
 import MissionSection from '@/components/Home/MissionSection.vue';
 import NewsUpdates from '@/components/Home/NewsUpdates.vue';
-import OurPrograms from '@/components/Home/OurPrograms.vue';
 import PartnersSponsors from '@/components/Home/PartnersSponsors.vue';
 import SuccessStories from '@/components/Home/SuccessStories.vue';
+import ProgramsOverview from '@/components/Programs/ProgramsOverview.vue';
 </script>
 
 <template>
@@ -15,7 +15,7 @@ import SuccessStories from '@/components/Home/SuccessStories.vue';
       <HeroSection/>
       <MissionSection/>
       <ImpactStatistics/>
-      <OurPrograms/>
+      <ProgramsOverview/>
       <SuccessStories/>
       <GetInvolved/>
       <NewsUpdates/>
