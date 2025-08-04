@@ -28,19 +28,10 @@
         :key="program.id"
         class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition"
       >
-        <img
-          :src="program.icon"
-          alt="Program Icon"
-          class="w-12 h-12 mb-4"
-        />
+        <img :src="program.icon" alt="Program Icon" class="w-12 h-12 mb-4" />
         <h3 class="text-xl font-semibold mb-2">{{ program.name }}</h3>
         <p class="text-gray-600 text-sm mb-4">{{ program.description }}</p>
-        <a
-          href="#"
-          class="text-orange-500 font-medium hover:underline"
-        >
-          Learn More →
-        </a>
+        <a href="#" class="text-orange-500 font-medium hover:underline">Learn More →</a>
       </div>
     </div>
   </section>
@@ -51,57 +42,78 @@ import { ref, computed } from 'vue'
 
 const selectedCategory = ref('All')
 
-const categories = ['All', 'Health', 'Education', 'Environment', 'Empowerment']
+const categories = [
+  'All',
+  'Education & Literacy',
+  'Healthcare & Medical Aid',
+  'Community Development',
+  'Emergency Relief',
+  'Women & Child Welfare',
+  'Environmental Conservation'
+]
 
 const programs = ref([
   {
     id: 1,
     name: 'Health Camps',
-    type: 'Health',
+    category: 'Healthcare & Medical Aid',
     description: 'Free medical check-ups and health awareness.',
     icon: 'https://img.icons8.com/fluency/48/stethoscope.png',
   },
   {
     id: 2,
     name: 'Scholarship Support',
-    type: 'Education',
+    category: 'Education & Literacy',
     description: 'Helping students pursue their dreams.',
-    icon: 'https://img.icons8.com/fluency/48/scholarship.png',
+    icon: 'https://img.icons8.com/color/48/graduation-cap--v2.png',
   },
   {
     id: 3,
     name: 'Tree Plantation',
-    type: 'Environment',
+    category: 'Environmental Conservation',
     description: 'Promoting green spaces across communities.',
     icon: 'https://img.icons8.com/fluency/48/plant-under-sun.png',
   },
   {
     id: 4,
     name: 'Women Empowerment',
-    type: 'Empowerment',
+    category: 'Women & Child Welfare',
     description: 'Skill training and self-help groups for women.',
     icon: 'https://img.icons8.com/fluency/48/women-empowerment.png',
   },
   {
     id: 5,
     name: 'Computer Literacy',
-    type: 'Education',
+    category: 'Education & Literacy',
     description: 'Equipping youth with digital skills.',
     icon: 'https://img.icons8.com/fluency/48/classroom.png',
   },
   {
     id: 6,
     name: 'Disaster Relief',
-    type: 'Health',
+    category: 'Emergency Relief',
     description: 'Emergency response and aid distribution.',
-    icon: 'https://img.icons8.com/fluency/48/emergency.png',
+    icon: 'https://img.icons8.com/fluency/48/natural-disaster.png',
+  },
+  {
+    id: 7,
+    name: 'Community Clean-Up',
+    category: 'Community Development',
+    description: 'Local campaigns for clean and hygienic spaces.',
+    icon: 'https://img.icons8.com/fluency/48/broom.png',
+  },
+  {
+    id: 8,
+    name: 'Nutrition for Children',
+    category: 'Women & Child Welfare',
+    description: 'Supplemental food distribution for malnourished kids.',
+    icon: 'https://img.icons8.com/fluency/48/baby-bottle.png',
   },
 ])
 
 const filteredPrograms = computed(() =>
   selectedCategory.value === 'All'
     ? programs.value
-    : programs.value.filter((p) => p.type === selectedCategory.value)
+    : programs.value.filter((p) => p.category === selectedCategory.value)
 )
 </script>
-
