@@ -1,9 +1,9 @@
 <script setup>
-    import ProgramsOverview from "@/components/ProgramsOverview.vue";
+    import ProgramsOverview from "@/components/Programs/ProgramsOverview.vue";
 import bgImage from "../assets/sunrise-in-chitwan.webp"
-import ProgramCategories from "@/components/ProgramCategories.vue";
-import ProgramCards from "@/components/ProgramCards.vue";
-import HowToHelp from "@/components/HowToHelp.vue";
+import ProgramCategories from "@/components/Programs/ProgramCategories.vue";
+import ProgramCards from "@/components/Programs/ProgramCards.vue";
+import HowToHelp from "@/components/Programs/HowToHelp.vue";
 </script>
 
 <template>

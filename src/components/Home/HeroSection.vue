@@ -1,7 +1,7 @@
 <script setup>
-    import firstSlider from "../assets/firstSlider.webp";
-    import secondSlider from "../assets/secondSlider.webp";
-    import thirdSlider from "../assets/3rdSlider.webp"; 
+    import firstSlider from "../../assets/firstSlider.webp";
+    import secondSlider from "../../assets/secondSlider.webp";
+    import thirdSlider from "../../assets/3rdSlider.webp"; 
 import { ref } from "vue";
 
     const currentSlide = ref(0);

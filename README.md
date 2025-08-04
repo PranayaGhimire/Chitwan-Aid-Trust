@@ -1,29 +1,51 @@
-# chitwan-aid-trust
+# Chitwan Aid Trust – Vue 3 Website
 
-This template should help get you started developing with Vue 3 in Vite.
+This project is a Vue 3 web application for **Chitwan Aid Trust**, a social organization based in Nepal. The site currently includes two main pages: **Home** and **Programs**, highlighting the organization's initiatives and encouraging community involvement.
 
-## Recommended IDE Setup
+---
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 📌 Project Description
 
-## Customize configuration
+The **Home page** introduces Chitwan Aid Trust and its mission.
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+The **Programs page** displays:
+- An overview of the organization's work
+- Various program categories (e.g., Education, Health, Emergency Relief)
+- Program details with images and descriptions
+- A "How to Help" section encouraging donations, volunteering, and partnerships
 
-## Project Setup
+---
+
+## 🛠️ Technology Stack & Rationale
+
+| Technology       | Purpose                                             |
+|------------------|-----------------------------------------------------|
+| Vue 3 + Vite     | Reactive UI with fast dev/build tooling             |
+| Tailwind CSS     | Utility-first framework for responsive design       |
+| Vue Router       | Navigation between `Home` and `Programs` pages      |
+| Heroicons        | Icon support in Vue components                      |
+| Vite             | Lightning-fast dev server and HMR                   |
+
+---
+
+## 🚀 Features Implemented
+
+- **Responsive design** (desktop → mobile)
+- **Modular components** (ProgramsOverview, ProgramCategories, ProgramCards, HowToHelp)
+- Background hero section with title and CTA
+- Organized and scalable folder structure
+- Vue Router setup for page navigation
+
+---
+
+
+---
+
+## 💻 Setup Instructions
+
+### 1. Install dependencies
 
 ```sh
 npm install
-```
 
-### Compile and Hot-Reload for Development
 
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
