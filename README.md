@@ -44,10 +44,30 @@ The **Programs page** displays:
 
 ## 💻 Setup Instructions
 
-### 1. Install dependencies
+### 1. Clone the Repository
 
-```sh
+```bash
+git clone https://github.com/your-username/chitwan-aid-trust.git
+cd chitwan-aid-trust
+```
+
+### 2. Install Dependencies
+
+```bash
 npm install
+```
+
+### 3. Run Development Server
+
+```bash
+npm run dev
+```
+
+Open your browser and navigate to the local development server URL (usually `http://localhost:5173`).
+
+---
+
+
 
 
 
