@@ -11,13 +11,9 @@
         <img
           :src="program.image"
           :alt="program.title"
-          class="h-48 w-full object-cover rounded-md mb-4"
+          class="h-48 w-full  rounded-md mb-4"
         />
         <h3 class="text-xl font-semibold mb-2">{{ program.title }}</h3>
-        <p class="text-gray-600 mb-3" v-if="program.description">{{ program.description }}</p>
-        <p class="text-sm text-gray-500 mb-4" v-if="program.target">
-          🎯 Target: {{ program.target }}
-        </p>
         <button
           class="mt-auto inline-block px-4 py-2 bg-orange-600 hover:bg-orange-700 text-white rounded-md font-semibold"
         >
@@ -31,40 +27,28 @@
 <script setup>
 const programs = [
   {
-    title: 'Quality Education for All',
-    description: 'Providing access to learning materials and teacher training in rural schools.',
-    target: 'Children aged 6–14 in remote villages',
-    image: 'https://source.unsplash.com/400x300/?education,school'
+    title: 'Blood Donation Program',
+    image: 'https://chitwanaidtrust.org/uploads/photo/51.jpeg'
   },
   {
-    title: 'Mobile Health Clinics',
-    description: 'Bringing healthcare to underserved communities through mobile units.',
-    target: 'Rural families without access to hospitals',
-    image: 'https://source.unsplash.com/400x300/?healthcare,clinic'
+    title: 'School Donation Program',
+    image: 'https://chitwanaidtrust.org/uploads/photo/25.jpeg'
   },
   {
-    title: 'Women Empowerment Workshops',
-    description: 'Skills training and literacy classes to support self-reliance.',
-    target: 'Women and girls in low-income areas',
-    image: 'https://source.unsplash.com/400x300/?women,training'
+    title: 'Parbatipur High School Donation',
+    image: 'https://chitwanaidtrust.org/uploads/photo/333.jpeg'
   },
   {
-    title: 'Clean Water Access',
-    description: 'Installing water filters and wells in water-scarce areas.',
-    target: 'Villages in drought-prone regions',
-    image: 'https://source.unsplash.com/400x300/?water,clean'
+    title: '100 Student Sponsorship Program',
+    image: 'https://chitwanaidtrust.org/uploads/photo/336.jpeg'
   },
   {
-    title: 'Emergency Disaster Relief',
-    description: 'Immediate aid and recovery support during natural disasters.',
-    target: 'Flood and landslide victims',
-    image: 'https://source.unsplash.com/400x300/?disaster,relief'
+    title: 'Nepali Mela',
+    image: 'https://chitwanaidtrust.org/uploads/photo/209.jpeg'
   },
   {
-    title: 'Tree Plantation Drives',
-    description: 'Engaging communities in reforestation and awareness programs.',
-    target: 'Schoolchildren and local farmers',
-    image: 'https://source.unsplash.com/400x300/?tree,plantation'
+    title: 'Charity Event',
+    image: 'https://chitwanaidtrust.org/uploads/photo/217.jpeg'
   }
 ]
 </script>

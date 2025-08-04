@@ -9,12 +9,11 @@
           :key="index"
           class="bg-gray-50 rounded-xl overflow-hidden shadow hover:shadow-lg transition duration-300"
         >
-          <img :src="post.image" :alt="post.title" class="w-full h-48 object-cover" />
+          <img :src="post.image" :alt="post.title" class="w-full h-60 " />
 
           <div class="p-5">
             <h3 class="text-xl font-semibold text-gray-800 mb-2">{{ post.title }}</h3>
             <p class="text-sm text-gray-500 mb-3">{{ post.date }}</p>
-            <p class="text-gray-600 text-sm mb-4">{{ post.excerpt }}</p>
             <a :href="post.link" class="text-orange-600 font-medium hover:underline">Read More →</a>
           </div>
         </div>
@@ -26,32 +25,28 @@
 <script setup>
 const newsPosts = [
   {
-    title: "Chitwan Aid Trust Hosts Annual Blood Donation Camp",
+    title: "नयॉं सभापतीको चयन",
     date: "July 25, 2025",
-    excerpt: "Over 300 volunteers participated in this year's camp, saving countless lives and raising awareness.",
     link: "#",
-    image: "https://images.unsplash.com/photo-1615461066841-8a2291a04b0e?auto=format&fit=crop&w=800&q=80" // blood donation
+    image: "https://chitwanaidtrust.org/uploads/posts/400x300/post-20.jpg"
   },
   {
-    title: "Clean Water Initiative Launched in Bharatpur",
+    title: "Charity Event",
     date: "June 18, 2025",
-    excerpt: "New water filtration systems are now serving over 1,500 residents in rural communities.",
     link: "#",
-    image: "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?auto=format&fit=crop&w=800&q=80" // water access
+    image: "https://chitwanaidtrust.org/uploads/posts/post-18.jpeg"
   },
   {
-    title: "Digital Literacy Workshop Empowers Women in Chitwan",
+    title: "Financial Help - Annapurna High School, Parbatipur",
     date: "May 5, 2025",
-    excerpt: "Women from across the region gained valuable tech skills to boost their confidence and employability.",
     link: "#",
-    image: "https://images.unsplash.com/photo-1599059814767-1a9474199b4c?auto=format&fit=crop&w=800&q=80" // women and technology
+    image: "https://chitwanaidtrust.org/uploads/posts/post-17.jpeg"
   },
   {
-    title: "Free Health Camp Reaches Remote Villages",
+    title: "Free Health Camp",
     date: "April 12, 2025",
-    excerpt: "Doctors and nurses provided checkups, medicines, and guidance to underserved families.",
     link: "#",
-    image: "https://images.unsplash.com/photo-1606240724601-4c769c4a80fc?auto=format&fit=crop&w=800&q=80" // rural health checkup
+    image: "https://chitwanaidtrust.org/uploads/posts/post-16.jpeg"
   }
 ];
 

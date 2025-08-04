@@ -1,6 +1,6 @@
 # Chitwan Aid Trust – Vue 3 Website
 
-This project is a Vue 3 web application for **Chitwan Aid Trust**, a social organization based in Nepal. The site currently includes two main pages: **Home** and **Programs**, highlighting the organization's initiatives and encouraging community involvement.
+This project is a Vue 3 web application for **Chitwan Aid Trust**, a social organization founded by the people who originate from the Chitwan district of Nepal to UK. The site currently includes two main pages: **Home** and **Programs**, highlighting the organization's initiatives and encouraging community involvement.
 
 ---
 
@@ -23,15 +23,16 @@ The **Programs page** displays:
 | Vue 3 + Vite     | Reactive UI with fast dev/build tooling             |
 | Tailwind CSS     | Utility-first framework for responsive design       |
 | Vue Router       | Navigation between `Home` and `Programs` pages      |
-| Heroicons        | Icon support in Vue components                      |
+| Heroicons        | Icon support in Vue components
+| Vuetify          | For Component such as carousel                      |
 | Vite             | Lightning-fast dev server and HMR                   |
 
 ---
 
 ## 🚀 Features Implemented
 
-- **Responsive design** (desktop → mobile)
-- **Modular components** (ProgramsOverview, ProgramCategories, ProgramCards, HowToHelp)
+- **Responsive design** (desktop + mobile + tablet )
+- **Modular components** 
 - Background hero section with title and CTA
 - Organized and scalable folder structure
 - Vue Router setup for page navigation
@@ -47,5 +48,7 @@ The **Programs page** displays:
 
 ```sh
 npm install
+
+
 
 

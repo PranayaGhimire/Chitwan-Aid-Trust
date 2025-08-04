@@ -33,8 +33,8 @@
       <div>
         <h3 class="text-lg font-semibold mb-3">Contact Info</h3>
         <div class="flex items-start gap-2 text-sm text-gray-300">
-          <MapPinIcon class="w-5 h-5 text-orange-400 mt-1" />
-          <span> Bharatpur, Chitwan, Nepal</span>
+          <MapPinIcon class="w-6 h-6 text-orange-400 mt-1" />
+          <span> Official Address: 137 Southcote Lane, RG30 3AJ, Reading, UK</span>
         </div>
         <div class="flex items-center gap-2 mt-2 text-sm text-gray-300">
           <EnvelopeIcon class="w-5 h-5 text-orange-400" />
@@ -42,7 +42,8 @@
         </div>
         <div class="flex items-center gap-2 mt-2 text-sm text-gray-300">
           <PhoneIcon class="w-5 h-5 text-orange-400" />
-          <span>+977-9800000000</span>
+          <span>
+          07735567548; Surya Bahadur Tamang, General Secretary</span>
         </div>
       </div>
 

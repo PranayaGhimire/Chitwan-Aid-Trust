@@ -5,7 +5,7 @@
              <div class="space-y-2">
                 <h2 class="text-3xl font-bold text-orange-600">Our Mission</h2>
                 <p class="text-lg text-gray-700">
-                    We aim to uplift communities by providing resources, education, and opportunities for sustainable development. 
+                   The charitable objectives of the Company would be for the public benefit in any part of the world but primarily in support of people in the remote areas of Chitwan district of Nepal. The activities include providing relief and assistance of people who are the victims of natural disaster, trouble, or catastrophe and to advance education for the benefit of the public in particular but not exclusively by building schools and providing access to educational facilities such as libraries as well as providing relief of sickness and the preservation of health by providing or assisting in the provision of healthcare projects. 
                 </p>
              </div>
             <!-- Vision -->

@@ -18,8 +18,8 @@
       <!-- Contact Info + Map -->
       <div class="space-y-6">
         <h2 class="text-3xl font-bold text-gray-800">Our Office</h2>
-        <p class="text-gray-600">Chitwan Aid Trust<br />Hakim Chowk, Bharatpur-10, Chitwan, Nepal</p>
-        <p class="text-gray-600">Phone: <a href="tel:+9779812345678" class="text-orange-600 font-medium">+977 9812345678</a></p>
+        <p class="text-gray-600">Chitwan Aid Trust<br />Official Address: 137 Southcote Lane, RG30 3AJ, Reading, UK</p>
+        <p class="text-gray-600">Phone: <a href="tel:+9779812345678" class="text-orange-600 font-medium">07735567548; Surya Bahadur Tamang, General Secretary</a></p>
         <p class="text-gray-600">Email: <a href="mailto:info@chitwanaid.org" class="text-orange-600 font-medium">info@chitwanaid.org</a></p>
 
         <!-- Social Media with Heroicons -->
@@ -50,7 +50,7 @@
         <div class="rounded-md overflow-hidden shadow">
           <iframe
             class="w-full h-64"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3531.479211126233!2d84.432525!3d27.683513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3994fdd7380ed6c1%3A0x3a2a1e949dc170f6!2sHakim%20Chowk!5e0!3m2!1sen!2snp!4v1689988099493"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.958580653355!2d-1.0071810842281812!3d51.44298777962521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48769d24cbaf7a6b%3A0x2492fbb82ac8d34e!2s137%20Southcote%20Ln%2C%20Reading%20RG30%203AJ%2C%20UK!5e0!3m2!1sen!2snp!4v1722590635943!5m2!1sen!2snp"
             allowfullscreen=""
             loading="lazy"
           ></iframe>
